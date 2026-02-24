@@ -15,7 +15,7 @@ The software utilizes a **Model-View-Controller (MVC)** architecture to ensure m
     The tool explicitly distinguishes between uplink and downlink channels. It accounts for turbulence-induced scintillation differences by applying an aperture averaging factor specifically for the space-to-ground downlink path.
 
 * **Dynamic Geometric Scanning**
-    Instead of static calculations, SGLC-Calc features an orbital mechanics module that dynamically updates slant range and atmospheric path length as the satellite traverses elevation angles from 45° to 90°.
+    Instead of static calculations, SGLC-Calc features an orbital mechanics module that dynamically updates slant range and atmospheric path length as the satellite traverses elevation angles from 20° to 90°.
 
 * **Cloud Interference Modeling**
     It incorporates a Mie scattering model based on ground station altitude and wavelength to evaluate link reliability under cloudy conditions.
@@ -83,4 +83,5 @@ The following files are necessary for standalone deployment:
 ### Definitions
 
 For more information on deployment terminology, visit the [MathWorks Documentation Center](https://www.mathworks.com/help) and navigate to:
+
 > MATLAB Compiler > Getting Started > About Application Deployment
