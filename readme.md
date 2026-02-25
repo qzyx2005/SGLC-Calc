@@ -62,7 +62,7 @@ Before running the software, verify that **MATLAB Runtime (R2024b)** is installe
 To perform a basic link budget analysis:
 
 1.  **Step 1:** Select the communication direction (**Uplink** or **Downlink**).
-2.  **Step 2:** Input the satellite altitude (e.g., for GEO).
+2.  **Step 2:** Input the satellite altitude.
 3.  **Step 3:** Choose the weather condition (e.g., "Moderate Rain" with a specific rainfall rate).
 4.  **Step 4:** Click **"Calculate"** to generate the link budget table and power distribution plots.
 
@@ -85,3 +85,4 @@ The following files are necessary for standalone deployment:
 For more information on deployment terminology, visit the [MathWorks Documentation Center](https://www.mathworks.com/help) and navigate to:
 
 > MATLAB Compiler > Getting Started > About Application Deployment
+
